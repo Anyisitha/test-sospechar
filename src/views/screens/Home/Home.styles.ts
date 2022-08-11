@@ -7,76 +7,43 @@ export const StyledFrontPage = styled.div.attrs({
 }) <{ background: string; }>`
     ${tw`w-[100vw] h-screen flex items-end overflow-hidden`}
     background: url(${({ background }) => background}) no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: top center;
     flex-wrap: wrap;
 `;
 
-export const StyledContent = styled.div<{type?: string}>`
-    ${tw`w-full`}
-    ${({type}) => type === "characters" ? tw`flex justify-between` : ""}
-
-    .heart {
-        ${tw`flex items-end justify-center w-[33%]`}
-
-        @media (max-width: 1024px) {
-            ${tw`w-[50%]`}
-        }
-    }
-
-    .preStart {
-        ${tw`hidden`}
-
-        @media (max-width: 1024px) {
-            ${tw`flex`}
-        }
-    }
-
-    .start {
-        ${tw`w-[34%] flex justify-center items-center`}
-
-        img {
-            ${tw`h-[79px]`}
-        }
-
-        @media (max-width: 1024px) {
-            ${tw`hidden`}
-        }
-    }
-
-    .character {
-        ${tw`flex items-end justify-center w-[33%]`}
-
-        @media (max-width: 1024px) {
-            ${tw`w-[50%]`}
-        }
-    }
+export const StyledContent = styled.div`
+    ${tw`flex justify-center items-end w-full`}
 `;
 
-export const StyledImage = styled.img<IStyledImage>`
-    ${({ type }) =>
-        type === "Principal Banner"
-            ? tw`w-[800px]`
-            : type === "Character"
-                ? tw`w-[360px]`
-                : type === "others" 
-                    ? tw`w-[400px]`
-                    : tw`w-[400px]`
-    }
+export const StyledContentStartButton = styled.div`
+    ${tw`w-full absolute bottom-[10%] flex justify-center`}
+`;
 
-    .preStart {
-        ${({type}) => type === "Principal Banner" ? tw`my-16` : ""}
-    }
+export const StyledContentImage = styled.img`
+    ${tw`w-[80%]`}
+`;
 
-    @media (max-width: 1024px){
-        ${({ type }) =>
-            type === "Principal Banner"
-                ? tw`w-[300px]`
-                : type === "Character"
-                    ? tw`w-[500px]`
-                    : type === "others" 
-                        ? tw`w-[200px]`
-                        : tw`w-full`
-        }
-    }
+export const StyledStartButtonContentImage = styled.img`
+    ${tw`w-[30%]`}
+`;
+
+export const StyledPrincipalBannerContainer = styled.div`
+    ${tw`flex justify-center w-full`}
+`;
+
+export const StyledPrincipalBannerImage = styled.img`
+    ${tw`w-[80%]`}
+`;
+
+export const StyledStartButtonImage = styled.img`
+    ${tw`w-[60%]`}
+`;
+
+
+export const StyledCharactersMobileContainer = styled.div`
+    ${tw`flex justify-center w-full`}
+`;
+
+export const StyledCharactersMobileImage = styled.img`
 `;
