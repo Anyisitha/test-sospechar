@@ -6,7 +6,9 @@ const Question9: FC<IQuestionProps> = ({saveResponse}): JSX.Element => {
     <svg viewBox="0 0 1943.07 1035.4" height="100vh">
       <defs>
         <style>
-          {`
+          {`#Botones {
+            cursor: pointer;
+          }
                     .cls-1,
                     .cls-2 {
                         fill: none;

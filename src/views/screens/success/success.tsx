@@ -731,7 +731,7 @@ const Success: FC = (): JSX.Element => {
                             enfermedad </tspan>
                         <tspan className="cls-16" x="1098.9" y="43.26">aumentan.</tspan>
                     </text><text className="cls-43" transform="translate(734.03 903.2)">
-                        <tspan x="0" y="0">Siguiente</tspan>
+                        <tspan x="0" y="0" style={{fill: "#000000"}}>Siguiente</tspan>
                     </text>
                     <rect className="cls-21" x="764.12" y="285.93" width="717.26" height="46.63" />
                     <rect className="cls-21" x="603.46" y="456.66" width="476.5" height="46.63" />
@@ -751,9 +751,7 @@ const Success: FC = (): JSX.Element => {
                         <tspan className="cls-86" x="22.02" y="0">A</tspan>
                         <tspan className="cls-85" x="64.89" y="0">TENCIÓN!</tspan>
                     </text><text className="cls-12" transform="translate(609.01 614.47)">
-                        <tspan x="0" y="0">ES MOMEN</tspan>
-                        <tspan className="cls-7" x="245.58" y="0">T</tspan>
-                        <tspan x="272.34" y="0">O DE</tspan>
+                        <tspan x="0" y="0">ES MOMENTO DE</tspan>
                         <tspan className="cls-3" x="382.61" y="0"> </tspan>
                         <tspan x="393.49" y="0">ACTUAR.</tspan>
                     </text>

@@ -6,7 +6,11 @@ const Question4: FC<IQuestionProps> = ({ saveResponse }): JSX.Element => {
     <svg viewBox="0 0 1943.07 1035.4" height="100vh">
       <defs>
         <style>
-          {`.cls-1,
+          {`
+          #Botones {
+            cursor: pointer;
+          }
+          .cls-1,
                 .cls-2 {
                     fill: none;
                 }
@@ -363,7 +367,7 @@ const Question4: FC<IQuestionProps> = ({ saveResponse }): JSX.Element => {
             </g>
           </g>
           <g id="Botones">
-            <g>
+            <g onClick={() => saveResponse("yes")}>
               <rect
                 className="cls-45"
                 x="259.05"
@@ -399,7 +403,7 @@ const Question4: FC<IQuestionProps> = ({ saveResponse }): JSX.Element => {
                 ry="56.24"
               />
             </g>
-            <g>
+            <g onClick={() => saveResponse("no")}>
               <rect
                 className="cls-43"
                 x="800.47"

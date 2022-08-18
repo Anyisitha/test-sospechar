@@ -323,8 +323,8 @@ const Instructions: FC = (): JSX.Element => {
                         <rect className="cls-31" x="915.39" y="360.71" width="465.01" height="115.03" rx="56.24"
                             ry="56.24" />
                     </g><text className="cls-13" transform="translate(554.83 461.42)">
-                        <tspan className="cls-22" x="0" y="0">S</tspan>
-                        <tspan x="72.76" y="0">I</tspan>
+                        {/* <tspan className="cls-22" x="0" y="0"></tspan> */}
+                        <tspan x="0" y="0">SI</tspan>
                     </text><text className="cls-13" transform="translate(1066.21 461.42)">
                         <tspan className="cls-36" x="0" y="0">N</tspan>
                         <tspan x="77.81" y="0">O</tspan>
@@ -392,8 +392,8 @@ const Instructions: FC = (): JSX.Element => {
                     </text><text className="cls-24" transform="translate(708.52 770.48)">
                         <tspan x="0" y="0">¿Estás listo?</tspan>
                     </text><text className="cls-4" transform="translate(655.01 909.46)">
-                        <tspan className="cls-26" x="0" y="0">V</tspan>
-                        <tspan x="31.23" y="0">olver</tspan>
+                        <tspan className="cls-26" x="0" y="0">Volver</tspan>
+                        {/* <tspan x="31.23" y="0"></tspan> */}
                     </text><text className="cls-4" transform="translate(929.71 909.46)">
                         <tspan x="0" y="0">Empezar</tspan>
                     </text>
