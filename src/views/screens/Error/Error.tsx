@@ -11,7 +11,7 @@ const Error: FC = (): JSX.Element => {
   const goToPage = () => navigate("/final");
   return (
     <StyledContainer background={Background}>
-      <img src={ErrorImage} alt="Error" className="h-screen" onClick={goToPage}/>
+      <img src={ErrorImage} alt="Error" className="h-screen cursor-pointer" onClick={goToPage}/>
     </StyledContainer>
   );
 };

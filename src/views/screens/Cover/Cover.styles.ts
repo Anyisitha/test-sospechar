@@ -19,7 +19,7 @@ export const StyledContent = styled.div`
 `;
 
 export const StyledContentNextButton = styled.div`
-    ${tw`absolute flex justify-center bottom-[15vh] w-full`}
+    ${tw`absolute flex justify-center bottom-[15vh] w-full cursor-pointer`}
 
     
 `;

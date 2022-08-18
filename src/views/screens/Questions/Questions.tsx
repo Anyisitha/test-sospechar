@@ -68,7 +68,7 @@ const Questions: FC = (): JSX.Element => {
   const goToNextPage = () => {
     let responsesToTest = responses.filter((item: any) => !item.response);
     console.log(responsesToTest)
-    if(responsesToTest.length > 10) {
+    if(responsesToTest.length === 10) {
       setQuestionNumber(12);
     } else {
       navigate("/success");

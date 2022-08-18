@@ -15,7 +15,11 @@ const Success: FC = (): JSX.Element => {
             <svg viewBox="0 0 1802.16 1103.7" height="100vh">
         <defs>
             <style>
-                {`.cls-1,
+                {`
+                #Botones {
+                    cursor: pointer;
+                  }
+                  .cls-1,
                 .cls-2 {
                     fill: none;
                 }

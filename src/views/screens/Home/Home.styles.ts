@@ -29,7 +29,8 @@ export const StyledContentImage = styled.img`
 `;
 
 export const StyledStartButtonContentImage = styled.img`
-    ${tw`w-[30%]`}
+    ${tw`w-[30%] cursor-pointer`}
+
 `;
 
 export const StyledPrincipalBannerContainer = styled.div`
