@@ -630,7 +630,7 @@ const Final: FC = (): JSX.Element => {
                     />
                   </g>
                   <circle
-                    className="cls-38" onClick={() => navigate("/")}
+                    className="cls-38" onClick={() => window.open("/")}
                     cx="626.86"
                     cy="945.05"
                     r="41.51"
@@ -723,7 +723,7 @@ const Final: FC = (): JSX.Element => {
                   </tspan>
                 </tspan>
               </text>
-              <text className="cls-31" transform="translate(693.65 963.44)" onClick={() => navigate("/")}>
+              <text className="cls-31" transform="translate(693.65 963.44)" onClick={() => window.open("/")}>
                 <tspan x="0" y="0">
                   Repetir
                 </tspan>
