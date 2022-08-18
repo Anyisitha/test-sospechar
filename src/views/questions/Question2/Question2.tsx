@@ -12,6 +12,9 @@ const Question2: FC<IQuestionProps> = ({ saveResponse }) => {
       <defs>
         <style>
           {`
+          #Botones {
+            cursor: pointer;
+          }
                 .cls-1,
                 .cls-2 {
                     fill: none;

@@ -9,7 +9,11 @@ const Question6: FC<IQuestionProps> = ({saveResponse}): JSX.Element => {
         >
         <defs>
             <style>
-                {`.cls-1,
+                {`
+                #Botones {
+                    cursor: pointer;
+                  }
+                .cls-1,
                 .cls-2 {
                     fill: none;
                 }
@@ -273,7 +277,7 @@ const Question6: FC<IQuestionProps> = ({saveResponse}): JSX.Element => {
                     </g>
                 </g>
                 <g id="Descr._botones">
-                    <g>
+                    <g onClick={() => saveResponse("yes")}>
                         <rect className="cls-45" x="259.05" y="567.44" width="486.52" height="134.61" rx="65.81"
                             ry="65.81" />
                         <g className="cls-34">
@@ -287,7 +291,7 @@ const Question6: FC<IQuestionProps> = ({saveResponse}): JSX.Element => {
                         <rect className="cls-41" x="269.81" y="577.23" width="465.01" height="115.03" rx="56.24"
                             ry="56.24" />
                     </g>
-                    <g>
+                    <g onClick={() => saveResponse("no")}>
                         <rect className="cls-43" x="800.47" y="567.44" width="486.52" height="134.61" rx="65.81"
                             ry="65.81" />
                         <g className="cls-34">
