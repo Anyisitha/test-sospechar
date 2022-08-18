@@ -23,6 +23,7 @@ const Final: FC = (): JSX.Element => {
 
                 .cls-4 {
                     letter-spacing: 0em;
+                    fill: #ffffff;
                 }
 
                 .cls-5 {
@@ -31,6 +32,7 @@ const Final: FC = (): JSX.Element => {
 
                 .cls-6 {
                     letter-spacing: -.02em;
+                    fill: #ffffff;
                 }
 
                 .cls-7 {
@@ -40,6 +42,7 @@ const Final: FC = (): JSX.Element => {
 
                 .cls-8 {
                     letter-spacing: 0em;
+                    
                 }
 
                 .cls-9 {
@@ -95,6 +98,8 @@ const Final: FC = (): JSX.Element => {
 
                 .cls-24 {
                     letter-spacing: -.06em;
+
+                    fill: #ffffff;
                 }
 
                 .cls-25 {
@@ -125,6 +130,7 @@ const Final: FC = (): JSX.Element => {
 
                 .cls-28 {
                     letter-spacing: 0em;
+                    fill: #ffffff;
                 }
 
                 .cls-3 {
@@ -753,11 +759,11 @@ const Final: FC = (): JSX.Element => {
                       NO{" "}
                     </tspan>
                     <tspan className="cls-24" x="62.03" y="0">
-                      F
+                      FALLA
                     </tspan>
-                    <tspan className="cls-4" x="81.48" y="0">
+                    {/* <tspan className="cls-4" x="81.48" y="0">
                       ALLA
-                    </tspan>
+                    </tspan> */}
                   </text>
                   <path
                     className="cls-3"
