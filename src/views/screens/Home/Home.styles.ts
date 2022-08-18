@@ -10,6 +10,10 @@ export const StyledFrontPage = styled.div.attrs({
     background-size: 100% 100%;
     background-position: top center;
     flex-wrap: wrap;
+
+    @media (max-width: 1200px) {
+        background-size: cover;
+    }
 `;
 
 export const StyledContent = styled.div`
